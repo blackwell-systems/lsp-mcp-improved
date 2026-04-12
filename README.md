@@ -1,3 +1,10 @@
+> [!WARNING]
+> **This project has been superseded by [agent-lsp](https://github.com/blackwell-systems/agent-lsp).**
+> 
+> agent-lsp is a complete rewrite: 50 tools (vs 8 here), 30 CI-verified languages, a persistent session model, speculative execution, and a skill layer for reliable agent workflows. This repository is archived and no longer maintained.
+> 
+> **Migrate:** replace `npx blackwell-systems/lsp-mcp-improved` with `agent-lsp` — see the [agent-lsp README](https://github.com/blackwell-systems/agent-lsp) for setup.
+
 # lsp-mcp
 
 An MCP server that bridges the [Model Context Protocol](https://modelcontextprotocol.io) and the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/). LLM agents use it to query real language servers for hover information, completions, diagnostics, code actions, and references — without spawning a new server process per request.
